@@ -1,0 +1,261 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for POS80 with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v2.1.3.
+*% Copyright 2021
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "POS80.PPD"
+*Product: "(POS80)"
+*Manufacturer: "Caysn"
+*ModelName: "Caysn POS80"
+*ShortNickName: "Caysn POS80"
+*NickName: "Caysn POS80, 1.0"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*MaxPrintableWidth: "576"
+*MaxPrintableHeight: "26182"
+*PaperSaveBottom: "0"
+*PaperSaveMiddle: "80"
+*PaperSaveTop: "0"
+*cupsVersion: 2.1
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 100 cprastertocmd"
+*cupsLanguages: "en zh_CN"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: 72.0mmx250.0mm
+*PageSize 72.0mmx60.0mm/72.0mmx60.0mm: "<</PageSize[204 170]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx70.0mm/72.0mmx70.0mm: "<</PageSize[204 198]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx80.0mm/72.0mmx80.0mm: "<</PageSize[204 227]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx90.0mm/72.0mmx90.0mm: "<</PageSize[204 255]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx100.0mm/72.0mmx100.0mm: "<</PageSize[204 283]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx110.0mm/72.0mmx110.0mm: "<</PageSize[204 312]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx120.0mm/72.0mmx120.0mm: "<</PageSize[204 340]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx130.0mm/72.0mmx130.0mm: "<</PageSize[204 369]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx140.0mm/72.0mmx140.0mm: "<</PageSize[204 397]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx150.0mm/72.0mmx150.0mm: "<</PageSize[204 425]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx160.0mm/72.0mmx160.0mm: "<</PageSize[204 454]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx170.0mm/72.0mmx170.0mm: "<</PageSize[204 482]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx180.0mm/72.0mmx180.0mm: "<</PageSize[204 510]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx190.0mm/72.0mmx190.0mm: "<</PageSize[204 539]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx200.0mm/72.0mmx200.0mm: "<</PageSize[204 567]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx210.0mm/72.0mmx210.0mm: "<</PageSize[204 595]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx220.0mm/72.0mmx220.0mm: "<</PageSize[204 624]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx230.0mm/72.0mmx230.0mm: "<</PageSize[204 652]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx240.0mm/72.0mmx240.0mm: "<</PageSize[204 680]/ImagingBBox null>>setpagedevice"
+*PageSize 72.0mmx250.0mm/72.0mmx250.0mm: "<</PageSize[204 709]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: 72.0mmx250.0mm
+*PageRegion 72.0mmx60.0mm/72.0mmx60.0mm: "<</PageSize[204 170]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx70.0mm/72.0mmx70.0mm: "<</PageSize[204 198]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx80.0mm/72.0mmx80.0mm: "<</PageSize[204 227]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx90.0mm/72.0mmx90.0mm: "<</PageSize[204 255]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx100.0mm/72.0mmx100.0mm: "<</PageSize[204 283]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx110.0mm/72.0mmx110.0mm: "<</PageSize[204 312]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx120.0mm/72.0mmx120.0mm: "<</PageSize[204 340]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx130.0mm/72.0mmx130.0mm: "<</PageSize[204 369]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx140.0mm/72.0mmx140.0mm: "<</PageSize[204 397]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx150.0mm/72.0mmx150.0mm: "<</PageSize[204 425]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx160.0mm/72.0mmx160.0mm: "<</PageSize[204 454]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx170.0mm/72.0mmx170.0mm: "<</PageSize[204 482]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx180.0mm/72.0mmx180.0mm: "<</PageSize[204 510]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx190.0mm/72.0mmx190.0mm: "<</PageSize[204 539]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx200.0mm/72.0mmx200.0mm: "<</PageSize[204 567]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx210.0mm/72.0mmx210.0mm: "<</PageSize[204 595]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx220.0mm/72.0mmx220.0mm: "<</PageSize[204 624]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx230.0mm/72.0mmx230.0mm: "<</PageSize[204 652]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx240.0mm/72.0mmx240.0mm: "<</PageSize[204 680]/ImagingBBox null>>setpagedevice"
+*PageRegion 72.0mmx250.0mm/72.0mmx250.0mm: "<</PageSize[204 709]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: 72.0mmx250.0mm
+*ImageableArea 72.0mmx60.0mm/72.0mmx60.0mm: "0 0 204.094497680664 170.078750610352"
+*ImageableArea 72.0mmx70.0mm/72.0mmx70.0mm: "0 0 204.094497680664 198.425201416016"
+*ImageableArea 72.0mmx80.0mm/72.0mmx80.0mm: "0 0 204.094497680664 226.771667480469"
+*ImageableArea 72.0mmx90.0mm/72.0mmx90.0mm: "0 0 204.094497680664 255.118118286133"
+*ImageableArea 72.0mmx100.0mm/72.0mmx100.0mm: "0 0 204.094497680664 283.464569091797"
+*ImageableArea 72.0mmx110.0mm/72.0mmx110.0mm: "0 0 204.094497680664 311.81103515625"
+*ImageableArea 72.0mmx120.0mm/72.0mmx120.0mm: "0 0 204.094497680664 340.157501220703"
+*ImageableArea 72.0mmx130.0mm/72.0mmx130.0mm: "0 0 204.094497680664 368.503936767578"
+*ImageableArea 72.0mmx140.0mm/72.0mmx140.0mm: "0 0 204.094497680664 396.850402832031"
+*ImageableArea 72.0mmx150.0mm/72.0mmx150.0mm: "0 0 204.094497680664 425.196868896484"
+*ImageableArea 72.0mmx160.0mm/72.0mmx160.0mm: "0 0 204.094497680664 453.543334960938"
+*ImageableArea 72.0mmx170.0mm/72.0mmx170.0mm: "0 0 204.094497680664 481.889770507812"
+*ImageableArea 72.0mmx180.0mm/72.0mmx180.0mm: "0 0 204.094497680664 510.236236572266"
+*ImageableArea 72.0mmx190.0mm/72.0mmx190.0mm: "0 0 204.094497680664 538.582702636719"
+*ImageableArea 72.0mmx200.0mm/72.0mmx200.0mm: "0 0 204.094497680664 566.929138183594"
+*ImageableArea 72.0mmx210.0mm/72.0mmx210.0mm: "0 0 204.094497680664 595.275634765625"
+*ImageableArea 72.0mmx220.0mm/72.0mmx220.0mm: "0 0 204.094497680664 623.6220703125"
+*ImageableArea 72.0mmx230.0mm/72.0mmx230.0mm: "0 0 204.094497680664 651.968505859375"
+*ImageableArea 72.0mmx240.0mm/72.0mmx240.0mm: "0 0 204.094497680664 680.315002441406"
+*ImageableArea 72.0mmx250.0mm/72.0mmx250.0mm: "0 0 204.094497680664 708.661437988281"
+*DefaultPaperDimension: 72.0mmx250.0mm
+*PaperDimension 72.0mmx60.0mm/72.0mmx60.0mm: "204.094497680664 170.078750610352"
+*PaperDimension 72.0mmx70.0mm/72.0mmx70.0mm: "204.094497680664 198.425201416016"
+*PaperDimension 72.0mmx80.0mm/72.0mmx80.0mm: "204.094497680664 226.771667480469"
+*PaperDimension 72.0mmx90.0mm/72.0mmx90.0mm: "204.094497680664 255.118118286133"
+*PaperDimension 72.0mmx100.0mm/72.0mmx100.0mm: "204.094497680664 283.464569091797"
+*PaperDimension 72.0mmx110.0mm/72.0mmx110.0mm: "204.094497680664 311.81103515625"
+*PaperDimension 72.0mmx120.0mm/72.0mmx120.0mm: "204.094497680664 340.157501220703"
+*PaperDimension 72.0mmx130.0mm/72.0mmx130.0mm: "204.094497680664 368.503936767578"
+*PaperDimension 72.0mmx140.0mm/72.0mmx140.0mm: "204.094497680664 396.850402832031"
+*PaperDimension 72.0mmx150.0mm/72.0mmx150.0mm: "204.094497680664 425.196868896484"
+*PaperDimension 72.0mmx160.0mm/72.0mmx160.0mm: "204.094497680664 453.543334960938"
+*PaperDimension 72.0mmx170.0mm/72.0mmx170.0mm: "204.094497680664 481.889770507812"
+*PaperDimension 72.0mmx180.0mm/72.0mmx180.0mm: "204.094497680664 510.236236572266"
+*PaperDimension 72.0mmx190.0mm/72.0mmx190.0mm: "204.094497680664 538.582702636719"
+*PaperDimension 72.0mmx200.0mm/72.0mmx200.0mm: "204.094497680664 566.929138183594"
+*PaperDimension 72.0mmx210.0mm/72.0mmx210.0mm: "204.094497680664 595.275634765625"
+*PaperDimension 72.0mmx220.0mm/72.0mmx220.0mm: "204.094497680664 623.6220703125"
+*PaperDimension 72.0mmx230.0mm/72.0mmx230.0mm: "204.094497680664 651.968505859375"
+*PaperDimension 72.0mmx240.0mm/72.0mmx240.0mm: "204.094497680664 680.315002441406"
+*PaperDimension 72.0mmx250.0mm/72.0mmx250.0mm: "204.094497680664 708.661437988281"
+*MaxMediaWidth: "204.094497680664"
+*MaxMediaHeight: "9286.2998046875"
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 45.354331970215 204.094497680664
+*ParamCustomPageSize Height: 2 points 45.354331970215 9286.2998046875
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI Grayscale: "<</HWResolution[203 203]/cupsBitsPerColor 8/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+*OpenUI *ImageBinarizationAlgorithm/Image Binarization Algorithm: PickOne
+*OrderDependency: 0 AnySetup *ImageBinarizationAlgorithm
+*DefaultImageBinarizationAlgorithm: 2
+*ImageBinarizationAlgorithm 0/Dithering: ""
+*ImageBinarizationAlgorithm 1/Thresholding: ""
+*ImageBinarizationAlgorithm 2/ErrorDiffusion: ""
+*CloseUI: *ImageBinarizationAlgorithm
+*OpenUI *KickDrawerBeforeJob/Kick Drawer Before Job: PickOne
+*OrderDependency: 20.10000038147 AnySetup *KickDrawerBeforeJob
+*DefaultKickDrawerBeforeJob: 3
+*KickDrawerBeforeJob 0/Don't Kick Drawer: ""
+*KickDrawerBeforeJob 1/Kick Drawer #1: "<1B70006060>"
+*KickDrawerBeforeJob 2/Kick Drawer #2: "<1B70016060>"
+*KickDrawerBeforeJob 3/Kick Drawer #1+#2: "<1B700060601B70016060>"
+*CloseUI: *KickDrawerBeforeJob
+*OpenUI *FeedPaperAfterJob/Feed Paper After Job: PickOne
+*OrderDependency: 25.799999237061 AnySetup *FeedPaperAfterJob
+*DefaultFeedPaperAfterJob: 0
+*FeedPaperAfterJob 0/Don't Feed Paper: ""
+*FeedPaperAfterJob 1/5mm: "<1B4A28>"
+*FeedPaperAfterJob 2/10mm: "<1B4A50>"
+*FeedPaperAfterJob 3/15mm: "<1B4A78>"
+*FeedPaperAfterJob 4/20mm: "<1B4AA0>"
+*FeedPaperAfterJob 5/25mm: "<1B4AA01B4A28>"
+*FeedPaperAfterJob 6/30mm: "<1B4AA01B4A50>"
+*FeedPaperAfterJob 7/35mm: "<1B4AA01B4A78>"
+*FeedPaperAfterJob 8/40mm: "<1B4AA01B4AA0>"
+*CloseUI: *FeedPaperAfterJob
+*OpenUI *CutPaperAfterJob/Cut Paper After Job: PickOne
+*OrderDependency: 25.89999961853 AnySetup *CutPaperAfterJob
+*DefaultCutPaperAfterJob: 3
+*CutPaperAfterJob 0/Don't Cut Paper: ""
+*CutPaperAfterJob 1/Direct Half Cut Paper: "<1B6D>"
+*CutPaperAfterJob 2/Direct Full Cut Paper: "<1B69>"
+*CutPaperAfterJob 3/Feed And Half Cut Paper: "<1D564200>"
+*CloseUI: *CutPaperAfterJob
+*zh_CN.Translation Manufacturer/Caysn: ""
+*zh_CN.Translation ModelName/Caysn POS80: ""
+*zh_CN.Translation ShortNickName/Caysn POS80: ""
+*zh_CN.Translation NickName/Caysn POS80, 1.0: ""
+*zh_CN.Translation PageSize/Media Size: ""
+*zh_CN.PageSize 72.0mmx60.0mm/72.0mmx60.0mm: ""
+*zh_CN.PageSize 72.0mmx70.0mm/72.0mmx70.0mm: ""
+*zh_CN.PageSize 72.0mmx80.0mm/72.0mmx80.0mm: ""
+*zh_CN.PageSize 72.0mmx90.0mm/72.0mmx90.0mm: ""
+*zh_CN.PageSize 72.0mmx100.0mm/72.0mmx100.0mm: ""
+*zh_CN.PageSize 72.0mmx110.0mm/72.0mmx110.0mm: ""
+*zh_CN.PageSize 72.0mmx120.0mm/72.0mmx120.0mm: ""
+*zh_CN.PageSize 72.0mmx130.0mm/72.0mmx130.0mm: ""
+*zh_CN.PageSize 72.0mmx140.0mm/72.0mmx140.0mm: ""
+*zh_CN.PageSize 72.0mmx150.0mm/72.0mmx150.0mm: ""
+*zh_CN.PageSize 72.0mmx160.0mm/72.0mmx160.0mm: ""
+*zh_CN.PageSize 72.0mmx170.0mm/72.0mmx170.0mm: ""
+*zh_CN.PageSize 72.0mmx180.0mm/72.0mmx180.0mm: ""
+*zh_CN.PageSize 72.0mmx190.0mm/72.0mmx190.0mm: ""
+*zh_CN.PageSize 72.0mmx200.0mm/72.0mmx200.0mm: ""
+*zh_CN.PageSize 72.0mmx210.0mm/72.0mmx210.0mm: ""
+*zh_CN.PageSize 72.0mmx220.0mm/72.0mmx220.0mm: ""
+*zh_CN.PageSize 72.0mmx230.0mm/72.0mmx230.0mm: ""
+*zh_CN.PageSize 72.0mmx240.0mm/72.0mmx240.0mm: ""
+*zh_CN.PageSize 72.0mmx250.0mm/72.0mmx250.0mm: ""
+*zh_CN.Translation Resolution/Resolution: ""
+*zh_CN.Resolution 203dpi/203 DPI Grayscale: ""
+*zh_CN.Translation ImageBinarizationAlgorithm/图像二值化算法: ""
+*zh_CN.ImageBinarizationAlgorithm 0/抖动算法: ""
+*zh_CN.ImageBinarizationAlgorithm 1/阈值算法: ""
+*zh_CN.ImageBinarizationAlgorithm 2/误差扩散法: ""
+*zh_CN.Translation KickDrawerBeforeJob/打印前开钱箱: ""
+*zh_CN.KickDrawerBeforeJob 0/不开钱箱: ""
+*zh_CN.KickDrawerBeforeJob 1/开钱箱#1: ""
+*zh_CN.KickDrawerBeforeJob 2/开钱箱#2: ""
+*zh_CN.KickDrawerBeforeJob 3/开钱箱#1+#2: ""
+*zh_CN.Translation FeedPaperAfterJob/作业完成后进纸: ""
+*zh_CN.FeedPaperAfterJob 0/不进纸: ""
+*zh_CN.FeedPaperAfterJob 1/5mm: ""
+*zh_CN.FeedPaperAfterJob 2/10mm: ""
+*zh_CN.FeedPaperAfterJob 3/15mm: ""
+*zh_CN.FeedPaperAfterJob 4/20mm: ""
+*zh_CN.FeedPaperAfterJob 5/25mm: ""
+*zh_CN.FeedPaperAfterJob 6/30mm: ""
+*zh_CN.FeedPaperAfterJob 7/35mm: ""
+*zh_CN.FeedPaperAfterJob 8/40mm: ""
+*zh_CN.Translation CutPaperAfterJob/作业完成后切纸: ""
+*zh_CN.CutPaperAfterJob 0/不切纸: ""
+*zh_CN.CutPaperAfterJob 1/直接半切: ""
+*zh_CN.CutPaperAfterJob 2/直接全切: ""
+*zh_CN.CutPaperAfterJob 3/进纸到切刀位置切纸: ""
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of POS80.PPD, 15284 bytes.
